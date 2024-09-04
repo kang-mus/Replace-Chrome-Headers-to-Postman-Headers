@@ -11,7 +11,7 @@
     "react-scripts": "4.0.0"
   },
   "devDependencies": {
-    "@babel/runtime": "7.13.8",
+    "@babel/runtime": "7.16.0",
     "typescript": "3.9.10"
   },
   "scripts": {

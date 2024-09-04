@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import "./styles.css";
 
@@ -39,6 +40,8 @@ class App extends Component {
           onFocus={this.selectAll}
           value={this.state.value}
         ></textarea>
+
+        <SpeedInsights />
       </div>
     );
   }
